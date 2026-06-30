@@ -1,0 +1,12 @@
+# ============================================
+# TickSMP Season 2 - Minimal Config
+# ============================================
+
+daily-reset-hours: 4
+tick-interval: 40
+kill-bonus-seconds: 3600
+death-penalty-seconds: 3600
+
+actionbar-update-ticks: 80
+
+particle-multiplier: 0.0

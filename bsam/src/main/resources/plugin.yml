@@ -1,0 +1,20 @@
+name: TickSMP
+version: 2.0
+main: com.playtime.PlaytimePlugin
+api-version: '1.21'
+description: Tick SMP Season 2 - Kill to survive!
+
+commands:
+  playtime:
+    description: Check playtime, admin commands
+    usage: /playtime [start|stop|status|gui|weapons|give|player]
+    aliases: [pt, time]
+  setplaytime:
+    description: Set a player's playtime (admin)
+    usage: /setplaytime <player> <minutes>
+    permission: playtime.admin
+
+permissions:
+  playtime.admin:
+    description: Full admin access to playtime system
+    default: op
