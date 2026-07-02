@@ -1,2 +1,2 @@
 # Potion-Ban-
-minecraft mod to ban any potion
+minecraft plugin to ban any potion
